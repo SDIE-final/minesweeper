@@ -8,6 +8,94 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <GridView x:Name="boardView" SelectionMode="None" Margin="0,190,0,0" Width="324" Height="324">
+            <!-- to make the items horizonal -->
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid Orientation="Horizontal" ItemHeight="36" ItemWidth="36"/>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+        </GridView>
     </Grid>
 </Page>
