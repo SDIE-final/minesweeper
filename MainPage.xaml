@@ -8,99 +8,30 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <GridView x:Name="boardView" SelectionMode="None" Margin="0,190,0,0" Width="324" Height="324">
+        <GridView x:Name="boardView" SelectionMode="None" Margin="0,190,0,0">
             <!-- to make the items horizonal -->
             <GridView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <ItemsWrapGrid Orientation="Horizontal" ItemHeight="36" ItemWidth="36"/>
                 </ItemsPanelTemplate>
             </GridView.ItemsPanel>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
-            <Button Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0" Background="Transparent"/>
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Button 
+                        Click="Zone_Click"
+                        RightTapped="Zone_Right_Click"
+                        DoubleTapped="Zone_Double_Click"
+                        Content="{Binding content}"
+                        Tag="{Binding extra}"
+                        Height="36" Width="36" BorderThickness="1" BorderBrush="White" Margin="-12,-12,0,0" Padding="0"
+                        Background="{Binding background}"/>
+                </DataTemplate>
+            </GridView.ItemTemplate>
         </GridView>
         <StackPanel Orientation="Horizontal" Margin="0,-50,538,650">
-            <AppBarButton VerticalAlignment="Center" Width="72" Icon="Help" Label="Help"/>
-            <AppBarButton VerticalAlignment="Center" Width="72" Icon="RepeatAll" Label="新游戏"/>
-            <AppBarButton VerticalAlignment="Center" Width="72" Label="初级">
+            <AppBarButton VerticalAlignment="Center" Width="72" Icon="Help" Label="Help" Click="showHelp"/>
+            <AppBarButton VerticalAlignment="Center" Width="72" Click="replay" Icon="RepeatAll" Label="新游戏"/>
+            <AppBarButton VerticalAlignment="Center" Width="72" Label="初级" Click="low">
                 <AppBarButton.Content>
                     <Canvas>
                         <Ellipse x:Name="lowButtonFill" Fill="GreenYellow" Height="40" Width="40"/>
@@ -108,7 +39,7 @@
                     </Canvas>
                 </AppBarButton.Content>
             </AppBarButton>
-            <AppBarButton VerticalAlignment="Center" Width="72" Label="中级">
+            <AppBarButton VerticalAlignment="Center" Width="72" Label="中级" Click="intermediate">
                 <AppBarButton.Content>
                     <Canvas>
                         <Ellipse x:Name="intermediateButtonFill" Fill="#FFCEB200" Height="40" Width="40"/>
@@ -116,7 +47,7 @@
                     </Canvas>
                 </AppBarButton.Content>
             </AppBarButton>
-            <AppBarButton VerticalAlignment="Center" Width="72" Label="高级">
+            <AppBarButton VerticalAlignment="Center" Width="72" Label="高级" Click="high">
                 <AppBarButton.Content>
                     <Canvas>
                         <Ellipse x:Name="highButtonFill" Fill="DarkRed" Height="40" Width="40"/>
@@ -124,13 +55,32 @@
                     </Canvas>
                 </AppBarButton.Content>
             </AppBarButton>
-            <AppBarButton VerticalAlignment="Center" Width="72" Icon="Like" Label="分享"/>
-            <AppBarButton VerticalAlignment="Center" Width="72" Icon="Favorite" Label="最高分"/>
-            <AppBarButton VerticalAlignment="Center" Width="82" Label="启动服务器" Icon="AddFriend" Margin="0,10"/>
-            <AppBarButton VerticalAlignment="Center" Width="82" Label="连接服务器" Icon="World" Margin="0,10"/>
-            <AppBarButton VerticalAlignment="Center" Width="72" Label="Duel" Icon="People"/>
-            <AppBarButton VerticalAlignment="Center" Label="结束对战" Icon="BlockContact"/>
+            <AppBarButton VerticalAlignment="Center" Width="72" Icon="Like" Label="分享" Click="share"/>
+            <AppBarButton VerticalAlignment="Center" Width="72" Icon="Favorite" Label="最高分" Click="showHighScore"/>
+            <AppBarButton VerticalAlignment="Center" Width="82" Label="启动服务器" Click="startListen" Icon="AddFriend" Margin="0,10"/>
+            <AppBarButton VerticalAlignment="Center" Width="82" Label="连接服务器" Click="connectToServer" Icon="World" Margin="0,10"/>
+            <AppBarButton VerticalAlignment="Center" Width="72" Label="Duel" Click="netStartGame" Icon="People"/>
+            <AppBarButton VerticalAlignment="Center" Label="结束对战" Click="netEndGame" Icon="BlockContact"/>
         </StackPanel>
-        
+        <TextBlock x:Name="minesLeft" Margin="1221,34,53,662" Text="{Binding numUnmarkedMines}" FontSize="32" TextAlignment="Center" Width="100"/>
+        <TextBlock x:Name="timeElaspedTextBlock" Margin="1084,34,150,662" Text="0" FontSize="32" TextAlignment="Center" Width="100"/>
+        <!--<ScrollViewer x:Name="log" Margin="0,118,818,583" Height="70" Width="400" VerticalScrollMode="Auto"/>-->
+        <TextBox x:Name="log" Margin="0,118,818,583" Height="70" Width="400" AcceptsReturn="True" IsReadOnly="True"/>
+        <TextBox x:Name="serverIp" Margin="574,123,643,602" PlaceholderText="服务器端IP" TextAlignment="Center" Height="70" Width="200"/>
+        <TextBlock x:Name="countDownTextBlock" FontSize="200" Text="" Visibility="Collapsed" Opacity="50" TextAlignment="Center" Margin="0, 300, 0, 0"/>
+        <ProgressBar x:Name="selfRevealedProgressBar" HorizontalAlignment="Left" Height="21" Margin="1009,123,0,0" VerticalAlignment="Top" Width="336" Foreground="Yellow" Maximum="{Binding numTotalZone}" Value="{Binding Path=numRevealedSafe, Mode=OneWay}"/>
+        <ProgressBar x:Name="selfMarkedProgressBar" HorizontalAlignment="Left" Height="21" Margin="1009,123,0,0" VerticalAlignment="Top" Width="336" Foreground="SkyBlue" Background="Transparent" Maximum="{Binding numTotalZone}" Value="{Binding Path=numMarkedMines, Mode=OneWay}" RenderTransformOrigin="0.5,0.5">
+            <ProgressBar.RenderTransform>
+                <CompositeTransform ScaleX="-1"/>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <TextBlock HorizontalAlignment="Left" Margin="939,123,0,0" TextWrapping="Wrap" Text="自己" VerticalAlignment="Top" FontSize="20"/>
+        <ProgressBar x:Name="componentRevealedProgressBar" HorizontalAlignment="Left" Height="21" Margin="1009,157,0,0" VerticalAlignment="Top" Width="336" Foreground="Yellow" Maximum="{Binding numTotalZone}" Visibility="Collapsed"/>
+        <ProgressBar x:Name="componentMarkedProgressBar" HorizontalAlignment="Left" Height="21" Margin="1009,157,0,0" VerticalAlignment="Top" Width="336" Foreground="SkyBlue" Background="Transparent" Maximum="{Binding numTotalZone}" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <ProgressBar.RenderTransform>
+                <CompositeTransform ScaleX="-1"/>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <TextBlock x:Name="componentTextBlock" HorizontalAlignment="Left" Margin="939,154,0,0" TextWrapping="Wrap" Text="对手" VerticalAlignment="Top" FontSize="20" Visibility="Collapsed"/>
     </Grid>
 </Page>
